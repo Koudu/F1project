@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F2330">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="387dp"
+        android:layout_height="121dp"
+        android:text="WEC — WEC (World Endurance Championship) — это чемпионат мира по гонкам на выносливость, организованный Международной автомобильной федерацией (FIA). Этот чемпионат включает в себя гонки на длинные дистанции, где команды и гонщики соревнуются в различных классах автомобилей. Самая престижная гонка 24 Часа Ле-Мана"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/wec_logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+    1. Катар 6 часов - 28 февраля 2025\n
+    2. Италия 6 часов - 20 апреля 2025\n
+    3. Бельгия 6 часов - 10 мая 2025\n
+    4. 24 часа Ле-Мана - 14-15 июня 2025\n
+    5. Бразилия 6 часов - 13 июля 2025\n
+    6. США 8 часов - 7 сентября 2025\n
+    7. Япония 6 часов - 28 сентября 2025\n
+    8. Бахрейн 8 часов - 8 ноября 2025\n"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F2330">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="387dp"
+        android:layout_height="121dp"
+        android:text="Формула-3 (Formula-3, F3) — это одна из серий автогонок, представляющая собой младшую категорию по сравнению с Формулой-1 и Формулой-2. Она служит важной вехой для молодых гонщиков, стремящихся развивать свои карьеры в профессиональном автоспорте."
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/f3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+    1. Гран-при Австралии - 16 марта 2025\n
+    2. Гран-при Бахренйна - 13 апреля 2025\n
+    3. Гран-при Эмилии-Романии - 18 мая 2025\n
+    4. Гран-при Монако - 25 мая 2025\n
+    5. Гран-при Испании - 1 июня 2025\n
+    6. Гран-при Австрии - 29 июня 2025\n
+    7. Гран-при Великобритании - 6 июля 2025\n
+    8. Гран-при Бельгии - 27 июля 2025\n
+    9. Гран-при Венгрии - 3 августа 2025\n
+    10. Гран-при Италии - 7 сентября 2025\n"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

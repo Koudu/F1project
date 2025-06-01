@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F2330">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="387dp"
+        android:layout_height="121dp"
+        android:text="IndyCar — это американская серия автогонок, которая считается одной из самых высоких категорий гонок в Соединенных Штатах. Самая престижная гонка INDY-500"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/indycar_logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+    1. Сент-Питерсберг - 2 марта 2025\n
+    2. Термал - 23 марта 2025\n
+    3. Лонг-Бич - 13 апреля 2025\n
+    4. Алабама - 4 мая 2025\n
+    5. Сонсио - 10 мая 2025\n
+    6. INDY-500 - 25 мая 2025\n
+    7. Детройт - 1 июня 2025\n
+    8. Боммарито - 15 июня 2025\n
+    9. Роад Америка - 22 июня 2025\n
+    10. Мид-Огайо - 6 июля 2025\n
+    11. Айова - 12 июля 2025\n
+    12. Айова - 13 июля 2025\n
+    13. Торонто - 20 июля 2025\n
+    14. Лагуна-Сека - 27 июля 2025\n
+    15. Портланд - 10 августа 2025\n
+    16. Милуоки - 24 августа 2025\n
+    17. Нэшвил - 31 августа 2025\n"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
