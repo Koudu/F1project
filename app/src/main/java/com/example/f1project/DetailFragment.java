@@ -29,8 +29,8 @@ public class DetailFragment extends Fragment {
     }
 
     public void setSelectedItem(String selectedItem) {
-        currentText = selectedItem; // Обновляем текущее значение
-        detailsText.setText(currentText); // Устанавливаем текст в TextView
+        currentText = selectedItem;
+        detailsText.setText(currentText);
     }
 
     @Override
