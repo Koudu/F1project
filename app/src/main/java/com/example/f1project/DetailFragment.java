@@ -20,7 +20,6 @@ public class DetailFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_detail, container, false);
         detailsText = view.findViewById(R.id.detailsText);
 
-        // Восстановление состояния при пересоздании фрагмента
         if (savedInstanceState != null) {
             currentText = savedInstanceState.getString("currentText");
             detailsText.setText(currentText);
@@ -29,13 +28,11 @@ public class DetailFragment extends Fragment {
         return view;
     }
 
-    // Метод для обновления текста
     public void setSelectedItem(String selectedItem) {
         currentText = selectedItem; // Обновляем текущее значение
         detailsText.setText(currentText); // Устанавливаем текст в TextView
     }
 
-    // Сохранение состояния
     @Override
     public void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
